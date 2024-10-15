@@ -36,3 +36,17 @@ rect2.ancho = 10;
 Console.WriteLine(rect2.obtenerPerimetro());
 Console.WriteLine(rect2.obtenerDiagonal());
 Console.WriteLine(rect2.obtenerArea());
+
+// libro
+Libro libro = new Libro();
+libro.Titulo = "Harry Potter";
+libro.Autor = "J. K. Rowling";
+libro.numPaginas = 20;
+libro.precio = 20;
+
+Libro libro2 = new Libro { Titulo = "Harry Potter",Autor="JK Rowling",numPaginas=20,precio=20};
+
+LibroSrv libroSrv = new LibroSrv();
+libroSrv.MostrarLibro(libro);
+
+Libro libro3= libroSrv.CrearLibro();
