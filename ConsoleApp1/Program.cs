@@ -8,7 +8,6 @@
 // quiero tener una variable que tenga los datos de un RECTANGULO.
 // y quiero tener una clase de servicio para
 //      perimetro, area y diagonal.
-
 using ConsoleApp1;
 
 
